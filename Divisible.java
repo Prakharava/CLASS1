@@ -1,0 +1,21 @@
+package College;
+import java.util.*;
+public class Divisible {
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        if(a%3==0 && a%5==0){
+            System.out.println("a is divisible by both 3 and 5");
+        }
+        else if(a%3==0){
+            System.out.println("a is divisible by 3 only");
+        }
+        else if(a%5==0){
+            System.out.println("a is divisible by 5 only");
+        }
+        else{
+            System.out.println("a is neither divisible by 3 nor 5");
+        }
+
+    }
+}
